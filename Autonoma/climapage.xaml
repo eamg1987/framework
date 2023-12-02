@@ -17,5 +17,24 @@
                          WidthRequest="30"
                          HorizontalOptions="EndAndExpand"/>
         </StackLayout>
+        <StackLayout Grid.Column="1"
+                     Orientation="Vertical">
+            <Label x:Name="LblCiudad"
+                   FontSize="25"
+                   HorizontalOptions="Center"
+                   TextColor="Gray"
+                   Text="Guayaquil"/>
+            <Label x:Name="LblPais"
+                   FontSize="20"
+                   HorizontalOptions="Center"
+                   TextColor="Gray"
+                   Text="Ecuador"/>
+            <Label x:Name="LblClima"
+                   FontSize="15"
+                   HorizontalOptions="Center"
+                   TextColor="Gray"
+                   Text="Parcialmente Nublado"/>
+
+        </StackLayout>
     </Grid>
 </ContentPage>
