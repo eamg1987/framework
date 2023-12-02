@@ -57,10 +57,35 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\buscar.png" />
+	  <None Remove="Resources\Images\clima1.png" />
+	  <None Remove="Resources\Images\clima19.png" />
+	  <None Remove="Resources\Images\clima1n.png" />
+	  <None Remove="Resources\Images\clima2.png" />
+	  <None Remove="Resources\Images\clima2n.png" />
+	  <None Remove="Resources\Images\clima2xxn.png" />
+	  <None Remove="Resources\Images\clima30.png" />
+	  <None Remove="Resources\Images\clima4.png" />
+	  <None Remove="Resources\Images\clima4n.png" />
+	  <None Remove="Resources\Images\clima6.png" />
+	  <None Remove="Resources\Images\clima6n.png" />
+	  <None Remove="Resources\Images\clima7.png" />
+	  <None Remove="Resources\Images\dotnet_bot.svg" />
+	  <None Remove="Resources\Images\humedadicon.png" />
+	  <None Remove="Resources\Images\vientoicon.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="climapage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
