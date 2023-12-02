@@ -17,7 +17,7 @@
                          WidthRequest="30"
                          HorizontalOptions="EndAndExpand"/>
         </StackLayout>
-        <StackLayout Grid.Column="1"
+        <StackLayout Grid.Row="1"
                      Orientation="Vertical">
             <Label x:Name="LblCiudad"
                    FontSize="25"
@@ -36,7 +36,7 @@
                    Text="Parcialmente Nublado"/>
            
         </StackLayout>
-        <Image Grid.Column="2"
+        <Image Grid.Row="2"
                x:Name="ImgclimaIcon"
                VerticalOptions="Start"
                HeightRequest="300"
