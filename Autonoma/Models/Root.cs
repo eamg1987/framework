@@ -142,7 +142,7 @@ namespace Autonoma.Models
         public int humidity { get; set; }
         public int pressure { get; set; }
         public string icon { get; set; }
-        public string miIcon => $"cli(icon).png"; 
+        public string miIcono => $"clima(icon).png"; 
         public int wind { get; set; }
         public string wind_direction { get; set; }
         public string icon_wind { get; set; }

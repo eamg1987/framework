@@ -20,6 +20,6 @@ public partial class climapage : ContentPage
         LblViento.Text = result.day1.wind + result.information.wind;
         ImgHumedadIcon.Source = "humedadicon.png";
         ImgVientoIcon.Source = "vientoicon.png";
-        ImgclimaIcon.Source = result.hour_hour.hour1.miIcon;
+        ImgclimaIcon.Source = "clima"+result.hour_hour.hour1.icon;
     }
 }
