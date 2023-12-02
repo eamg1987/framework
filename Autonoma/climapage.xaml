@@ -23,7 +23,7 @@
                    FontSize="25"
                    HorizontalOptions="Center"
                    TextColor="Gray"
-                   Text="Guayaquil"/>
+                    Text="Guayaquil"/>
             <Label x:Name="LblPais"
                    FontSize="20"
                    HorizontalOptions="Center"
