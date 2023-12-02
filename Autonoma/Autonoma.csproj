@@ -47,7 +47,6 @@
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
-		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
@@ -70,7 +69,6 @@
 	  <None Remove="Resources\Images\clima6.png" />
 	  <None Remove="Resources\Images\clima6n.png" />
 	  <None Remove="Resources\Images\clima7.png" />
-	  <None Remove="Resources\Images\dotnet_bot.svg" />
 	  <None Remove="Resources\Images\humedadicon.png" />
 	  <None Remove="Resources\Images\vientoicon.png" />
 	</ItemGroup>
