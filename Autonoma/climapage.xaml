@@ -34,7 +34,17 @@
                    HorizontalOptions="Center"
                    TextColor="Gray"
                    Text="Parcialmente Nublado"/>
-
+           
         </StackLayout>
+        <Image Grid.Column="2"
+               x:Name="ImgclimaIcon"
+               VerticalOptions="Start"
+               HeightRequest="300"
+               WidthRequest="300"
+               Source="clima2.png">
+            
+            
+        </Image>
+
     </Grid>
 </ContentPage>
