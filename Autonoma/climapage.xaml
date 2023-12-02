@@ -41,10 +41,42 @@
                VerticalOptions="Start"
                HeightRequest="300"
                WidthRequest="300"
-               Source="clima2.png">
-            
-            
-        </Image>
+               Source="clima2.png"/>
+        <Grid Grid.Row="3"
+              RowDefinitions="Auto,Auto"
+              ColumnDefinitions="0.33*,0.33*,0.33*"
+              Margin="20">
+            <Image x:Name="ImgHumedadIcon"
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   HorizontalOptions="Center"
+                   HeightRequest="25"
+                   Source="humedadicon.png"/>
+            <Label x:Name="LblHumedad"
+                   Grid.Row="1"
+                   Grid.Column="0"
+                   HorizontalOptions="Center"
+                   Text="76%"></Label>
+            <Label x:Name="LblTemperatura"
+                   Grid.Row="0"
+                   Grid.Column="1"
+                   Grid.RowSpan="2"
+                   FontSize="40"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   Text="25º"></Label>
+            <Image x:Name="ImgVientoIcon"
+                   Grid.Row="0"
+                   Grid.Column="2"
+                   HorizontalOptions="Center"
+                   HeightRequest="25"
+                   Source="vientoicon.png"/>
+            <Label x:Name="LblViento"
+                   Grid.Row="1"
+                   Grid.Column="2"
+                   HorizontalOptions="Center"
+                   Text="28"></Label>
+        </Grid>
 
     </Grid>
 </ContentPage>
